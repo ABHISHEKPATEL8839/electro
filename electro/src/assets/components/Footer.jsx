@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="row g-5">
+            {/* <div className="row g-5">
                 <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
                         <div className="footer-item">
@@ -71,8 +71,8 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-6 col-xl-3">
+                </div> */}
+                {/* <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="text-primary mb-4">Customer Service</h4>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Contact Us</a>
@@ -83,8 +83,8 @@ const Footer = () => {
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> My Account</a>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Unsubscribe Notification</a>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-6 col-xl-3">
+                </div> */}
+                {/* <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="text-primary mb-4">Information</h4>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> About Us</a>
@@ -95,8 +95,8 @@ const Footer = () => {
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> FAQ</a>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Seller Login</a>
                     </div>
-                </div>
-                <div className="col-md-6 col-lg-6 col-xl-3">
+                </div> */}
+                {/* <div className="col-md-6 col-lg-6 col-xl-3">
                     <div className="footer-item d-flex flex-column">
                         <h4 className="text-primary mb-4">Extras</h4>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Brands</a>
@@ -107,10 +107,10 @@ const Footer = () => {
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Track Your Order</a>
                         <a href="#!" className=""><i className="fas fa-angle-right me-2"></i> Track Your Order</a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
-    </div>
+    {/* </div> */}
 
 
 

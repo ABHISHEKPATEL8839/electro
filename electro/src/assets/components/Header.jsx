@@ -68,8 +68,8 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
-                            <a href="index.html" className="nav-item nav-link active">Home</a>
-                            <a href="shop.html" className="nav-item nav-link">Shop</a>
+                            <a href="/" className="nav-item nav-link active">Home</a>
+                            <a href="/shop" className="nav-item nav-link">Shop</a>
                             
                             <div className="nav-item dropdown">
                                 <a href="#!" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -80,7 +80,7 @@ const Header = () => {
                                     <a href="404.html" className="dropdown-item">404 Page</a>
                                 </div>
                             </div>
-                            <a href="contact.html" className="nav-item nav-link me-2">Contact</a>
+                            <a href="/con" className="nav-item nav-link me-2">Contact</a>
                             <div className="nav-item dropdown d-block d-lg-none mb-3">
                                 <a href="#!" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">All Category</a>
                                 <div className="dropdown-menu m-0">
