@@ -1,10 +1,13 @@
 import mongoose from "mongoose";
-import { DB_url } from "./conn";
-mongoose.connect(DB_url)
+// import { DB_URL } from "./config.js";
+
+mongoose
+.connect(process.env.DB_URL)
 .then(()=>{
-    console.log("db conntected")
+    console.log("DB CONNECTED")
 })
-.then((err)=>{
-    console.log("db not connected")
+.catch((err)=>{
+    console.log("DB NOT CONNECTED ", err)
 })
-export default mongoose
+
+export default mongoose;

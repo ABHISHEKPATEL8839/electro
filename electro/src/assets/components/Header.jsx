@@ -4,7 +4,7 @@ const Header = () => {
   return (
 <>
 
-<div className="container-fluid nav-bar p-0">
+<div className="container-fluid nav-bar p-0" >
         <div className="row gx-0 bg-primary px-5 align-items-center">
             <div className="col-lg-3 d-none d-lg-block">
                 <nav className="navbar navbar-light position-relative" style={{width: "250px"}}>
@@ -17,42 +17,7 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-                    <div className="collapse navbar-collapse rounded-bottom" id="allCat">
-                        <div className="navbar-nav ms-auto py-0">
-                            <ul className="list-unstyled categories-bars">
-                                <li>
-                                    <div className="categories-bars-item">
-                                        <a href="#!">Accessories</a>
-                                        <span>(3)</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="categories-bars-item">
-                                        <a href="#!">Electronics & Computer</a>
-                                        <span>(5)</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="categories-bars-item">
-                                        <a href="#!">Laptops & Desktops</a>
-                                        <span>(2)</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="categories-bars-item">
-                                        <a href="#!">Mobiles & Tablets</a>
-                                        <span>(8)</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="categories-bars-item">
-                                        <a href="#!">SmartPhone & Smart TV</a>
-                                        <span>(5)</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </nav>
             </div>
             <div className="col-12 col-lg-9">

@@ -4,8 +4,7 @@ import Header from '../components/Header'
 const h = () => {
   return (
     <>
-   
-    
+
      <div className="container carousel bg-light px-0">
         <div className="row g-0 justify-content-end">
             <div className="col-12 col-lg-7 col-xl-9">
